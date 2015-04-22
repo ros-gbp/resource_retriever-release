@@ -1,3 +1,24 @@
+## resource_retriever (jade) - 1.11.6-0
+
+The packages in the `resource_retriever` repository were released into the `jade` distro by running `/usr/local/bin/bloom-release -r jade -t jade resource_retriever` on `Wed, 22 Apr 2015 01:31:57 -0000`
+
+The `resource_retriever` package was released.
+
+Version of package(s) in repository `resource_retriever`:
+- upstream repository: https://github.com/ros/resource_retriever.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.11.6-0`
+
+Versions of tools used:
+- bloom version: `0.5.19`
+- catkin_pkg version: `0.2.8`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.36`
+
+
 ## resource_retriever (indigo) - 1.11.6-0
 
 The packages in the `resource_retriever` repository were released into the `indigo` distro by running `/usr/local/bin/bloom-release -r indigo -t indigo resource_retriever -e` on `Wed, 22 Apr 2015 01:24:43 -0000`

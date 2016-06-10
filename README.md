@@ -1,3 +1,26 @@
+## resource_retriever (kinetic) - 1.12.1-0
+
+The packages in the `resource_retriever` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release resource_retriever --track kinetic --rosdistro kinetic` on `Fri, 10 Jun 2016 17:29:23 -0000`
+
+The `resource_retriever` package was released.
+
+Version of package(s) in repository `resource_retriever`:
+
+- upstream repository: https://github.com/ros/resource_retriever.git
+- release repository: https://github.com/ros-gbp/resource_retriever-release.git
+- rosdistro version: `1.12.0-0`
+- old version: `1.12.0-0`
+- new version: `1.12.1-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.38`
+
+
 ## resource_retriever (kinetic) - 1.12.0-0
 
 The packages in the `resource_retriever` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release resource_retriever --track kinetic --rosdistro kinetic` on `Wed, 23 Mar 2016 17:08:54 -0000`

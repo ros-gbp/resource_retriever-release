@@ -2,25 +2,6 @@
 Changelog for package resource_retriever
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.12.2 (2016-06-10)
--------------------
-* fix failing build due to cmake error (`#6 <https://github.com/ros/resource_retriever/issues/6>`_)
-* Contributors: Jackie Kay
-
-1.12.1 (2016-06-10)
--------------------
-* Fix warnings in test (`#5 <https://github.com/ros/resource_retriever/issues/5>`_)
-  add spaces around ROS_PACKAGE_NAME
-* Merge pull request `#4 <https://github.com/ros/resource_retriever/issues/4>`_ from DLu/kinetic-devel
-  Add c++11 flag
-* Contributors: David V. Lu!!, Jackie Kay, Steven Peters
-
-1.12.0 (2016-03-23)
--------------------
-* resource_retriever: adding missing dep
-  Using the python resource_retriever requires the `python-urlgrabber` system dependency: http://rosindex.github.io/d/python-urlgrabber/
-* Contributors: Jonathan Bohren
-
 1.11.6 (2014-11-30)
 -------------------
 

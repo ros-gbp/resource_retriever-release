@@ -2,38 +2,10 @@
 Changelog for package resource_retriever
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.12.3 (2017-03-27)
+1.11.8 (2017-03-27)
 -------------------
-* Fix C++11 to use set_directory_properties
 * Make Shane and Chris the maintainers.
-* Python3 compatibility (`#10 <https://github.com/ros/resource_retriever/issues/10>`_)
-  * Replace urlgrabber with urllib[2]
-  As urlgrabber is not supported for Python 3 replace it with either the built-in urllib (Python 2) or urllib2 (Python 3)
-  * Use rospkg instead of system call for rospack
-  * Add test for python functionality
-  * Fix rospkg dependency definition
-* Update URL in http test to something which exists (`#8 <https://github.com/ros/resource_retriever/issues/8>`_)
-  * Update URL in http test to something which exists
-* Contributors: Chris Lalancette, Mike Purvis, Ruben Smits
-
-1.12.2 (2016-06-10)
--------------------
-* fix failing build due to cmake error (`#6 <https://github.com/ros/resource_retriever/issues/6>`_)
-* Contributors: Jackie Kay
-
-1.12.1 (2016-06-10)
--------------------
-* Fix warnings in test (`#5 <https://github.com/ros/resource_retriever/issues/5>`_)
-  add spaces around ROS_PACKAGE_NAME
-* Merge pull request `#4 <https://github.com/ros/resource_retriever/issues/4>`_ from DLu/kinetic-devel
-  Add c++11 flag
-* Contributors: David V. Lu!!, Jackie Kay, Steven Peters
-
-1.12.0 (2016-03-23)
--------------------
-* resource_retriever: adding missing dep
-  Using the python resource_retriever requires the `python-urlgrabber` system dependency: http://rosindex.github.io/d/python-urlgrabber/
-* Contributors: Jonathan Bohren
+* Contributors: Chris Lalancette
 
 1.11.6 (2014-11-30)
 -------------------

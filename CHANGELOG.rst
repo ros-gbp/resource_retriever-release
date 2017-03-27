@@ -2,6 +2,11 @@
 Changelog for package resource_retriever
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.11.8 (2017-03-27)
+-------------------
+* Make Shane and Chris the maintainers.
+* Contributors: Chris Lalancette
+
 1.11.6 (2014-11-30)
 -------------------
 

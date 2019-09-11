@@ -1,0 +1,13 @@
+Source: ros-melodic-resource-retriever
+Section: misc
+Priority: extra
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), curl, libboost-all-dev, libcurl4-openssl-dev, ros-melodic-catkin (>= 0.5.68), ros-melodic-rosconsole, ros-melodic-roslib
+Homepage: http://ros.org/wiki/resource_retriever
+Standards-Version: 3.9.2
+
+Package: ros-melodic-resource-retriever
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, curl, libboost-all-dev, libcurl4-openssl-dev, ros-melodic-rosconsole, ros-melodic-roslib
+Description: This package retrieves data from url-format files such as http://, ftp://, package:// file://, etc., and loads the data into memory.
+ The package:// url for ros packages is translated into a local file:// url. The resourse retriever was initially designed to load mesh files into memory, but it can be used for any type of data. The resource retriever is based on the the libcurl library.

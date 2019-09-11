@@ -1,6 +1,10 @@
-<package format="2">
+<?xml version="1.0"?>
+<?xml-model
+  href="http://download.ros.org/schema/package_format3.xsd"
+  schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
   <name>resource_retriever</name>
-  <version>1.12.4</version>
+  <version>1.12.5</version>
   <description>
    This package retrieves data from url-format files such as http://,
    ftp://, package:// file://, etc., and loads the data into memory.
@@ -18,8 +22,8 @@
   <license>BSD</license>
 
   <url type="website">http://ros.org/wiki/resource_retriever</url>
-  <url type="repository">https://github.com/ros/robot_model</url>
-  <url type="bugtracker">https://github.com/ros/robot_model/issues</url>
+  <url type="repository">https://github.com/ros/resource_retriever</url>
+  <url type="bugtracker">https://github.com/ros/resource_retriever/issues</url>
 
   <buildtool_depend version_gte="0.5.68">catkin</buildtool_depend>
 
@@ -28,6 +32,7 @@
   <depend>rosconsole</depend>
   <depend>boost</depend>
 
-  <exec_depend>python-rospkg</exec_depend>
+  <exec_depend condition="$ROS_PYTHON_VERSION == 2">python-rospkg</exec_depend>
+  <exec_depend condition="$ROS_PYTHON_VERSION == 3">python3-rospkg</exec_depend>
 
 </package>

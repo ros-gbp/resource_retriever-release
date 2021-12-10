@@ -1,3 +1,26 @@
+## resource_retriever (noetic) - 1.12.7-1
+
+The packages in the `resource_retriever` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic --track noetic resource_retriever` on `Fri, 10 Dec 2021 17:35:59 -0000`
+
+The `resource_retriever` package was released.
+
+Version of package(s) in repository `resource_retriever`:
+
+- upstream repository: https://github.com/ros/resource_retriever.git
+- release repository: https://github.com/ros-gbp/resource_retriever-release.git
+- rosdistro version: `1.12.6-1`
+- old version: `1.12.6-1`
+- new version: `1.12.7-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.24`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## resource_retriever (melodic) - 1.12.7-1
 
 The packages in the `resource_retriever` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic resource_retriever` on `Fri, 10 Dec 2021 17:29:17 -0000`
